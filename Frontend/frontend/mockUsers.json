@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "username": "Soap Gh",
+        "email": "soap@email.com",
+        "password": "soapisMyname"
+    },
+    {
+        "_id": "2",
+        "username": "hunaycomb",
+        "email": "hunaycomb@email.com",
+        "password": "hunayComb12"
+    },
+    {
+        "_id": "3",
+        "username": "Mahmoud",
+        "email": "mahmoud@email.com",
+        "password": "mahmoud123"
+    }
+]
