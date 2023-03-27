@@ -33,7 +33,7 @@ function App() {
     }
   }
 
-  useEffect(() => { getPeeps() }, []);
+  useEffect(() => { getPeeps() });
 
 
 
