@@ -14,7 +14,7 @@ function App() {
 
   const [user, setUser] = useState({});
   const [peeps, setPeeps] = useState([]);
-  const [error, setError] = useState({})
+  const [setError] = useState({})
 
 
   const getPeeps = async () => {
