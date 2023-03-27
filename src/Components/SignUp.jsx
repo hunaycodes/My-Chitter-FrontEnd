@@ -21,7 +21,7 @@ const SignUp = () => {
         e.preventDefault();
         const { username, email, password } = user;
         if (username && password && email) {
-            const response = await axios.post('http://localhost:4000/register', user);
+            const response = await axios.post(`${process.env.REACT_APP_CHITTERURL}/register`, user);
             alert(response.data.message)
             setUser({ email: ``, password: ``, username: `` });
             return

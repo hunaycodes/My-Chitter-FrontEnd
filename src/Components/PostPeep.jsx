@@ -32,7 +32,7 @@ const PostPeep = ({ user }) => {
             username: peep.username
         };
         try {
-            const response = await axios.post(`http://localhost:4000/post`, newPeep)
+            const response = await axios.post(`${process.env.REACT_APP_CHITTERURL}/post`, newPeep)
             alert(response.data.message);
             // Clear the input field
             setPeep({ ...peep, peepContent: '' });

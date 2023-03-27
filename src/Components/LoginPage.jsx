@@ -21,7 +21,7 @@ const Login = ({ setUser: setLoginUser }) => {
 
     const login = async (e) => {
         e.preventDefault();
-        const res = await axios.post(`http://localhost:4000/login`, user);
+        const res = await axios.post(`${process.env.REACT_APP_CHITTERURL}/login`, user);
         alert(res.data.message);
         console.dir(res.data.user);
         setLoginUser(res.data.user);
